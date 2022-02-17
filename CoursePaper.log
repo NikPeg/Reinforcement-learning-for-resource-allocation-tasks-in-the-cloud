@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.17)  17 FEB 2022 22:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.17)  17 FEB 2022 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,6 +22,9 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
+)
+(C:\Program Files\MiKTeX\tex/latex/cmap\cmap.sty
+Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
 )
 (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
@@ -447,7 +450,7 @@ LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 5
 
 (C:\Program Files\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
+)<<t2a.cmap>>
 
 LaTeX Warning: Label `ris:image' multiply defined.
 
@@ -457,23 +460,23 @@ LaTeX Warning: Label `ris:image' multiply defined.
 )
 \openout1 = `CoursePaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Info: Redefining \th on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Info: Redefining \th on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -559,19 +562,19 @@ Package grfext Info: Graphics extension search list:
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
 [1
 
 {C:/Users/pegan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 62--69
+Underfull \hbox (badness 10000) in paragraph at lines 63--70
 
  []
 
@@ -580,89 +583,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--69
 \openout3 = `CoursePaper.toc'.
 
  [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 84--98
+Underfull \hbox (badness 10000) in paragraph at lines 85--99
 
  []
 
 [5] [6] [7]
-<pictures//RL_scheme.png, id=28, 602.25pt x 265.99374pt>
+<pictures//RL_scheme.png, id=29, 602.25pt x 265.99374pt>
 File: pictures//RL_scheme.png Graphic file (type png)
 <use pictures//RL_scheme.png>
-Package pdftex.def Info: pictures//RL_scheme.png  used on input line 121.
+Package pdftex.def Info: pictures//RL_scheme.png  used on input line 122.
 (pdftex.def)             Requested size: 500.484pt x 221.0548pt.
  [8 <./pictures//RL_scheme.png (PNG copy)>]
-<pictures//tetris_example.png, id=32, 190.311pt x 200.54926pt>
+<pictures//tetris_example.png, id=33, 190.311pt x 200.54926pt>
 File: pictures//tetris_example.png Graphic file (type png)
 <use pictures//tetris_example.png>
-Package pdftex.def Info: pictures//tetris_example.png  used on input line 131.
+Package pdftex.def Info: pictures//tetris_example.png  used on input line 132.
 (pdftex.def)             Requested size: 250.24199pt x 263.72209pt.
-<pictures//network.png, id=34, 483.0045pt x 278.2395pt>
+<pictures//network.png, id=35, 483.0045pt x 278.2395pt>
 File: pictures//network.png Graphic file (type png)
 <use pictures//network.png>
-Package pdftex.def Info: pictures//network.png  used on input line 138.
+Package pdftex.def Info: pictures//network.png  used on input line 139.
 (pdftex.def)             Requested size: 250.24199pt x 144.15466pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--144
+Underfull \hbox (badness 10000) in paragraph at lines 130--145
 
  []
 
 [9 <./pictures//tetris_example.png> <./pictures//network.png>] [10] [11]
 [12] [13]
-Underfull \hbox (badness 5711) in paragraph at lines 161--162
+Underfull \hbox (badness 5711) in paragraph at lines 162--163
 []\T2A/cmr/m/it/10 Arif Mohamed \T2A/cmr/m/n/10 (2018) A history of cloud compu
 ting // Сайт Сomputerweekly.com. 9 ап-ре-ля
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 []\T2A/cmr/m/it/10 Laura Wood \T2A/cmr/m/n/10 (2021) Global Cloud Computing Mar
 ket (2020 to 2026) - by Service,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 \T2A/cmr/m/n/10 Deployment, Application Type, End-user and Region Businesswire.
 com. 24 ав-гу-ста
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 \T2A/cmr/m/n/10 (https://www.businesswire.com/news/home/20210824005585/en/Globa
 l-Cloud-Computing-Market-2020-to-
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 163--164
+Underfull \hbox (badness 2343) in paragraph at lines 164--165
 \T2A/cmr/m/n/10 2026---by-Service-Deployment-Application-Type-End-user-and-Regi
 on---ResearchAndMarkets.com) Про-смот-ре-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
 []\T2A/cmr/m/it/10 Harvinder Singh, Anshu Bhasin, Parag Ravikant Kaveri \T2A/cm
 r/m/n/10 (2021) QRAS: efficient resource
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
 \T2A/cmr/m/n/10 allocation for task scheduling in cloud computing // Сайт Resea
 rchgate.net. Ап-рель
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
 []\T2A/cmr/m/it/10 Renan Samuel da Silva, Rafael Stubs Parpinelli \T2A/cmr/m/n/
 10 (2017) Playing the Original Game
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
 \T2A/cmr/m/n/10 Boy Tetris Using a Real Coded Genetic Algorithm // Сайт Researc
 hgate.net. Ок-трябрь
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 []\T2A/cmr/m/it/10 Keras-RL \T2A/cmr/m/n/10 (2018) Deep Reinforcement Learning 
 for Keras. // Сайт Github.com. 1 мая
  []
@@ -673,10 +676,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6078 strings out of 478659
- 99683 string characters out of 2855777
- 824642 words of memory out of 3000000
- 24090 multiletter control sequences out of 15000+600000
+ 6125 strings out of 478659
+ 100578 string characters out of 2855777
+ 824940 words of memory out of 3000000
+ 24124 multiletter control sequences out of 15000+600000
  407877 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,7n,77p,1664b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -686,9 +689,9 @@ tcrm1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
 600\labx1440.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a
 /dpi600\larm1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
 -t2a/dpi600\labx1000.pk>
-Output written on CoursePaper.pdf (16 pages, 198589 bytes).
+Output written on CoursePaper.pdf (16 pages, 199571 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
+ 387 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 20 words of extra memory for PDF output out of 10000 (max. 10000000)
 

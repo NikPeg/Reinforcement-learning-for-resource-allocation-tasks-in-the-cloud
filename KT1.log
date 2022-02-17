@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.17)  17 FEB 2022 22:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.17)  17 FEB 2022 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,6 +22,9 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
+)
+(C:\Program Files\MiKTeX\tex/latex/cmap\cmap.sty
+Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
 )
 (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
@@ -447,26 +450,26 @@ LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 5
 
 (C:\Program Files\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-))
+)<<t2a.cmap>>)
 \openout1 = `KT1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Info: Redefining \th on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Info: Redefining \th on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -552,7 +555,7 @@ Package grfext Info: Graphics extension search list:
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 20--27
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
 
  []
 
@@ -564,50 +567,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--27
 
 
 [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 42--56
+Underfull \hbox (badness 10000) in paragraph at lines 44--58
 
  []
 
 [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 65--69
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 []\T2A/cmr/m/n/10 Baekalfen (Mads Ynddal) [Ёлек-трон-ный ре-сурс] / Github. –е-
 жим до-сту-па:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 []\T2A/cmr/m/n/10 Laura Wood. Global Cloud Computing Market (2020 to 2026) - by
  Service, Deployment,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 \T2A/cmr/m/n/10 https://www.businesswire.com/news/home/20210824005585/en/Global
 -Cloud-Computing-Market-2020-to-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 \T2A/cmr/m/n/10 2026---by-Service-Deployment-Application-Type-End-user-and-Regi
 on---ResearchAndMarkets.com, сво-бод-ный.
  []
 
 [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 120--127
+Underfull \hbox (badness 10000) in paragraph at lines 122--129
 
  []
 
 [9] (KT1.aux) ) 
 Here is how much of TeX's memory you used:
- 6012 strings out of 478659
- 98304 string characters out of 2855777
- 824634 words of memory out of 3000000
- 24028 multiletter control sequences out of 15000+600000
+ 6058 strings out of 478659
+ 99183 string characters out of 2855777
+ 824932 words of memory out of 3000000
+ 24062 multiletter control sequences out of 15000+600000
  407003 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,5n,77p,1658b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -616,9 +619,9 @@ c/dpi600\tcrm1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/l
 h-t2a/dpi600\larm1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/
 lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljf
 our/lh/lh-t2a/dpi600\labx1440.pk>
-Output written on KT1.pdf (9 pages, 88494 bytes).
+Output written on KT1.pdf (9 pages, 89465 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
+ 267 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5 words of extra memory for PDF output out of 10000 (max. 10000000)
 
