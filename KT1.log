@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.17)  17 FEB 2022 22:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.17)  17 FEB 2022 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./CoursePaper.tex
-(CoursePaper.tex
+**./KT1.tex
+(KT1.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2021-11-22>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -441,21 +441,14 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen159
 \Gin@req@width=\dimen160
-) (CoursePaper.aux
+) (KT1.aux
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 5
 .
 
 (C:\Program Files\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-
-LaTeX Warning: Label `ris:image' multiply defined.
-
-
-LaTeX Warning: Label `ris:image' multiply defined.
-
-)
-\openout1 = `CoursePaper.aux'.
+))
+\openout1 = `KT1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
@@ -559,136 +552,73 @@ Package grfext Info: Graphics extension search list:
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
+Underfull \hbox (badness 10000) in paragraph at lines 20--27
 
  []
 
 [1
 
-{C:/Users/pegan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 62--69
-
- []
-
-[2] (CoursePaper.toc)
+{C:/Users/pegan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (KT1.toc)
 \tf@toc=\write3
-\openout3 = `CoursePaper.toc'.
+\openout3 = `KT1.toc'.
 
- [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 84--98
 
- []
-
-[5] [6] [7]
-<pictures//RL_scheme.png, id=28, 602.25pt x 265.99374pt>
-File: pictures//RL_scheme.png Graphic file (type png)
-<use pictures//RL_scheme.png>
-Package pdftex.def Info: pictures//RL_scheme.png  used on input line 121.
-(pdftex.def)             Requested size: 500.484pt x 221.0548pt.
- [8 <./pictures//RL_scheme.png (PNG copy)>]
-<pictures//tetris_example.png, id=32, 190.311pt x 200.54926pt>
-File: pictures//tetris_example.png Graphic file (type png)
-<use pictures//tetris_example.png>
-Package pdftex.def Info: pictures//tetris_example.png  used on input line 131.
-(pdftex.def)             Requested size: 250.24199pt x 263.72209pt.
-<pictures//network.png, id=34, 483.0045pt x 278.2395pt>
-File: pictures//network.png Graphic file (type png)
-<use pictures//network.png>
-Package pdftex.def Info: pictures//network.png  used on input line 138.
-(pdftex.def)             Requested size: 250.24199pt x 144.15466pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--144
+[2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 42--56
 
  []
 
-[9 <./pictures//tetris_example.png> <./pictures//network.png>] [10] [11]
-[12] [13]
-Underfull \hbox (badness 5711) in paragraph at lines 161--162
-[]\T2A/cmr/m/it/10 Arif Mohamed \T2A/cmr/m/n/10 (2018) A history of cloud compu
-ting // Сайт Сomputerweekly.com. 9 ап-ре-ля
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 65--69
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+[]\T2A/cmr/m/n/10 Baekalfen (Mads Ynddal) [Элек-трон-ный ре-сурс] / Github. Ре-
+жим до-сту-па:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
-[]\T2A/cmr/m/it/10 Laura Wood \T2A/cmr/m/n/10 (2021) Global Cloud Computing Mar
-ket (2020 to 2026) - by Service,
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+[]\T2A/cmr/m/n/10 Laura Wood. Global Cloud Computing Market (2020 to 2026) - by
+ Service, Deployment,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
-\T2A/cmr/m/n/10 Deployment, Application Type, End-user and Region Businesswire.
-com. 24 ав-гу-ста
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+\T2A/cmr/m/n/10 https://www.businesswire.com/news/home/20210824005585/en/Global
+-Cloud-Computing-Market-2020-to-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
-\T2A/cmr/m/n/10 (https://www.businesswire.com/news/home/20210824005585/en/Globa
-l-Cloud-Computing-Market-2020-to-
- []
-
-
-Underfull \hbox (badness 2343) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 \T2A/cmr/m/n/10 2026---by-Service-Deployment-Application-Type-End-user-and-Regi
-on---ResearchAndMarkets.com) Про-смот-ре-
+on---ResearchAndMarkets.com, сво-бод-ный.
  []
 
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 120--127
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
-[]\T2A/cmr/m/it/10 Harvinder Singh, Anshu Bhasin, Parag Ravikant Kaveri \T2A/cm
-r/m/n/10 (2021) QRAS: efficient resource
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
-\T2A/cmr/m/n/10 allocation for task scheduling in cloud computing // Сайт Resea
-rchgate.net. Ап-рель
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
-[]\T2A/cmr/m/it/10 Renan Samuel da Silva, Rafael Stubs Parpinelli \T2A/cmr/m/n/
-10 (2017) Playing the Original Game
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
-\T2A/cmr/m/n/10 Boy Tetris Using a Real Coded Genetic Algorithm // Сайт Researc
-hgate.net. Ок-трябрь
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
-[]\T2A/cmr/m/it/10 Keras-RL \T2A/cmr/m/n/10 (2018) Deep Reinforcement Learning 
-for Keras. // Сайт Github.com. 1 мая
- []
-
-[14] [15] [16] (CoursePaper.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[9] (KT1.aux) ) 
 Here is how much of TeX's memory you used:
- 6078 strings out of 478659
- 99683 string characters out of 2855777
- 824642 words of memory out of 3000000
- 24090 multiletter control sequences out of 15000+600000
- 407877 words of font info for 33 fonts, out of 8000000 for 9000
+ 6012 strings out of 478659
+ 98304 string characters out of 2855777
+ 824634 words of memory out of 3000000
+ 24028 multiletter control sequences out of 15000+600000
+ 407003 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,7n,77p,1664b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati10
-00.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcrm1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
-600\labx1440.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a
-/dpi600\larm1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
--t2a/dpi600\labx1000.pk>
-Output written on CoursePaper.pdf (16 pages, 198589 bytes).
+ 68i,5n,77p,1658b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/e
+c/dpi600\tcrm1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/l
+h-t2a/dpi600\larm1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljfour/
+lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\pegan\AppData\Local\MiKTeX\fonts/pk/ljf
+our/lh/lh-t2a/dpi600\labx1440.pk>
+Output written on KT1.pdf (9 pages, 88494 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
+ 266 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

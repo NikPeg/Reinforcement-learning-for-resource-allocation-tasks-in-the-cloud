@@ -1,0 +1,9 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Реферат}{1}{}%
+\contentsline {section}{\numberline {2}Содержание}{2}{}%
+\contentsline {section}{\numberline {3}Основные термины, определения и сокращения}{3}{}%
+\contentsline {section}{\numberline {4}Введение}{4}{}%
+\contentsline {section}{\numberline {5}Обзор и анализ источников}{5}{}%
+\contentsline {section}{\numberline {6}Выбор методов, алгоритмов, моделей для решения поставленных задач}{6}{}%
+\contentsline {section}{Список использованных источников}{7}{}%
+\contentsline {section}{\numberline {7}Приложения}{9}{}%
