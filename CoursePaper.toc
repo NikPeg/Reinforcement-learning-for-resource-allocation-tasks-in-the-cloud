@@ -1,4 +1,4 @@
-\babel@toc {russian}{}
+\babel@toc {russian}{}\relax 
 \contentsline {section}{\numberline {1}Реферат}{2}{}%
 \contentsline {section}{\numberline {2}Содержание}{3}{}%
 \contentsline {section}{\numberline {3}Основные термины, определения и сокращения}{4}{}%
@@ -7,8 +7,8 @@
 \contentsline {section}{\numberline {6}Выбор методов, алгоритмов, моделей для решения поставленных задач}{7}{}%
 \contentsline {section}{\numberline {7}Описание выбранных или предлагаемых методов, алгоритмов, моделей, методик}{8}{}%
 \contentsline {section}{\numberline {8}Описание эксперимента}{9}{}%
-\contentsline {section}{\numberline {9}Анализ и оценка полученных результатов}{10}{}%
-\contentsline {section}{\numberline {10}Заключение}{11}{}%
-\contentsline {section}{\numberline {11}Перспективы дальнейших исследований по данной тематике}{12}{}%
-\contentsline {section}{Список использованных источников}{13}{}%
-\contentsline {section}{\numberline {12}Приложения}{14}{}%
+\contentsline {section}{\numberline {9}Анализ и оценка полученных результатов}{11}{}%
+\contentsline {section}{\numberline {10}Заключение}{12}{}%
+\contentsline {section}{\numberline {11}Перспективы дальнейших исследований по данной тематике}{13}{}%
+\contentsline {section}{Список использованных источников}{14}{}%
+\contentsline {section}{\numberline {12}Приложения}{16}{}%
