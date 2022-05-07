@@ -5,6 +5,8 @@
 \usepackage[russian]{babel}
 \usepackage[pdftex]{graphicx}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
 \graphicspath{{pictures/}}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
 \newcommand\zz[1]{\par{\normalsize\strut #1} \hfill\ignorespaces}
@@ -179,11 +181,34 @@ VM (англ. virtual machine) — виртуальная машина\\
 TensorFlow — фреймворк с открытым кодом, совмещающий в себе передовые достижения для создания и использования нейронных сетей. Библиотека создана компанией Google, однако активно развивается сообществом программистов\cite{litlink18}.\\
 Библиотека KerasRL позволяет создать нейронную сеть и агента, который будет взаимодействовать со средой и обучать сеть. Библиотека также является открытой и развивается компанией Google.\\~\\
 Для решения поставленной задачи выбран метод обучения с подкреплением. Это способ машинного обучения, при котором система, называемая агентом, обучается во время взимодействия со средой (в первой части работы средой является компьютерная игра "Тетрис"). При этом агент влияет на среду с помощью действий, а среда взаимодействует с агентом, показывая ему информацию о состоянии среды, а также возвращая награду. Цель агента — максимизация награды.\\
+
+\begin{center}
+\begin{tikzpicture}[
+roundnode/.style={circle, draw=green!60, fill=green!5, very thick, minimum size=7mm},
+squarednode/.style={rectangle, draw=red!60, fill=red!5, very thick, minimum size=5mm},
+simplenode/.style={rectangle, draw=black!60, fill=white!5, very thick, minimum size=5mm},
+]
+%Nodes
+\node[simplenode]      (maintopic)                              {Agent-environmental interaction loop};
+\node[roundnode]        (uppercircle)       [above=of maintopic] {Agent};
+\node[squarednode]      (rightsquare)       [right=of maintopic] {Action};
+\node[roundnode]        (lowercircle)       [below=of maintopic] {Environment};
+\node[squarednode]      (leftsquare)       [left=of maintopic] {State,
+Reward};
+
+%Lines
+\draw[->] (uppercircle.east) .. controls +(right:20mm) and +(up:11mm) .. (rightsquare.north);
+\draw[->] (rightsquare.south) .. controls +(down:10mm) and +(right:20mm) .. (lowercircle.east);
+\draw[->] (lowercircle.west) .. controls +(left:20mm) and +(down:10mm) .. (leftsquare.south);
+\draw[->] (leftsquare.north) .. controls +(up:13mm) and +(left:20mm) .. (uppercircle.west);
+\end{tikzpicture}
+\end{center}
 \begin{figure}[h]
-\center{\includegraphics[width=1\linewidth]{RL_scheme}}
+\center{\includegraphics[width=1\linewidth]{Fake}}
 \caption{Схема метода обучения с подкреплением\cite{litlink19}.}
 \label{ris:image}
-\end{figure}\\
+\end{figure}
+~\\
 \textbf{Описание эксперимента}\\
 В первую очередь, с помощью библиотеки OpenAI Gym была создана среда, в которой обучающийся агент производит какие-либо действия. В случае, рассматриваемом в данной работе, создается среда TetrisA-v0 — эмулятор игры "Тетрис". В этой среде агент может сделать ход, передав один из вариантов действий: сдвиг фигурки влево, сдвиг фигурки вправо, поворот на 90° по часовой стрелке, против часовой стрелки, ускорение падения фигурки. При заполнении строки частями фигурок среда автоматически очищает строку и добавляет 1 к награде.\\
 \begin{figure}[h]
