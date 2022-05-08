@@ -1,6 +1,6 @@
 \documentclass[draft]{article}
 \usepackage{cmap}
-\usepackage[T1]{fontenc}
+\usepackage[T1,T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
@@ -12,7 +12,9 @@
 \usepackage[usestackEOL]{stackengine}
 \usepackage{kantlipsum}
 \usepackage{graphicx}
-
+\usepackage{caption}
+\usepackage{float}
+\captionsetup[table]{justification=centering}
 \usetikzlibrary{positioning}
 \graphicspath{{pictures/}}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
@@ -77,7 +79,7 @@
 \begin{center}
 \section {Реферат}
 \end{center}
-Отчет 14 с., 1 кн., 8 рис., 2 табл., 24 источн., 1 прил.\\
+Отчет 16 с., 1 кн., 8 рис., 2 табл., 24 источн., 1 прил.\\
 ~\\
 ОБУЧЕНИЕ С ПОДКРЕПЛЕНИЕМ, REINFORCEMENT LEARNING, RL, РАСПРЕДЕЛЕНИЕ РЕСУРСОВ В ОБЛАКЕ, ОБЛАЧНЫЕ ТЕХНОЛОГИИ, ОБЛАЧНЫЕ РЕСУРСЫ, TETRIS, OPENAI GYM, TENSORFLOW, KERASRL\\
 ~\\
@@ -278,8 +280,8 @@ A Hierarchical Framework of Cloud Resource Allocation and Power Management Using
 \end{itemize}
 Данные метрики были взяты из статьи Protean: VM Allocation Service at Scale\cite{litlink21}. Задержка отражает время, которое запрос ожидал выделения сервера под его выполнение. Пропускная способность показывает, какое количество запросов было обработано в единицу времени. Число принятых запросов характеризует, сколько запросов удалось принять. Запрос может быть не принят из-за отсутствия подходящего сервера.\\
 ~\\
+\begin{table}[H]
 \begin{center}
-\textbf{Результаты эвристического алгоритма}\\
 \begin{tabular}{ | l | l | l | }
 \hline
 Метрика & Значение & Идеальное значение\\ \hline
@@ -288,7 +290,9 @@ A Hierarchical Framework of Cloud Resource Allocation and Power Management Using
 Общее число принятых запросов & 4 479 888 запросов & 5 559 800 запросов \\
 \hline
 \end{tabular}
+\caption{\label{tab:table-name}Результаты эвристического алгоритма.}
 \end{center}
+\end{table}
 ~\\
 \textbf{Описание эксперимента}\\
 Для исследования области применимости RL в данной задаче были использованы те же классы Request и VirtualMachine. Но для распределения запросов создан новый класс RLDistibutor. В нем с помощью библиотеки KerasRL была создана модель нейронной сети. Ее архитектура взята из статьи A Hierarchical Framework of Cloud Resource Allocation and Power Management Using Deep Reinforcement Learning\cite{litlink24}. На первый слой подаются данные о занятости каждого из доступных серверов. Второй сильно связанный слой имеет линейную функцию активации и 50 выходных синапсов. Третий слой имеет функцию активации выпрямленного линейного блока и имеет 100 входных синапсов. Четвертый слой обладает аналогичной функцией активации и 50 синапсами. Последний слой реализует линейную функцию активации и имеет 4619 выходных синапсов — активация первого из которых определяет сервер, выделенный для текущего запроса. На основе описанной сети создан агент с политикой BoltzmannQPolicy.\\
@@ -297,7 +301,9 @@ A Hierarchical Framework of Cloud Resource Allocation and Power Management Using
 \caption{Архитектура нейронной сети.}
 \label{ris:image}
 \end{figure}\\
-\textbf{Результаты эксперимента}\\
+
+\begin{table}[h]
+\begin{center}
 \begin{tabular}{ | l | l | l | l | }
 \hline
 Метрика & Эксперимент 1 & Эксперимент 2 & Идеальное значение\\ \hline
@@ -306,6 +312,10 @@ A Hierarchical Framework of Cloud Resource Allocation and Power Management Using
 Общее число принятых запросов & 1 025 136 запросов & \textbf{1 567 776 запросов} & 5 559 800 запросов \\
 \hline
 \end{tabular}
+\caption{\label{tab:table-name}Результаты эксперимента.}
+\end{center}
+\end{table}
+
 \begin{center}
 \section {Заключение}
 \end{center}
